@@ -1,0 +1,36 @@
+.chat {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #182229;
+  color: #fff;
+}
+
+.chat__title {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.chat__field {
+  margin-bottom: 15px;
+}
+
+.chat__input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #2a3942;
+  color: #fff;
+}
+
+.chat__input::placeholder {
+  color: #ccc;
+}
